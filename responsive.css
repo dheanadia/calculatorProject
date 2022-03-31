@@ -1,0 +1,40 @@
+/* Untuk Tablet*/
+@media all and (max-width: 1000px) {
+    .calculator {
+        width: 50%;
+        padding-top: 150px;
+    }
+
+    .process {
+        font-size: 14px;
+    }
+
+    .calculator-screen {
+        font-size: 30px;
+    }
+
+    button {
+        font-size: 30px;
+    }
+}
+
+/*Untuk Smartphone*/
+@media all and (max-width: 670px) {
+    .calculator {
+        width: 100%;
+        padding-top: 0px;
+    }
+
+    .process {
+        font-size: 14px;
+    }
+
+    .calculator-screen {
+        font-size: 24px;
+    }
+
+    button {
+        font-size: 24px;
+        height: 75px;
+    }
+}
